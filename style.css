@@ -1,0 +1,198 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+#bg{
+    background-color: rgb(87, 87, 87);
+    margin: 0 ;
+    padding: 0;
+}
+.head{
+    background:rgb(220, 232, 255);
+    display: flex;
+    justify-content: center;
+    width: 9.3in;
+    margin: 0px auto;
+    border-bottom: 1px solid black;
+}
+.resume-parent{
+    background:linear-gradient(rgba(175, 203, 255),white) ;
+    height: 13.7;
+    width: 9.3in;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-evenly;
+}
+h1{
+    font-size: 50px;
+}
+/* <--------left side content--------> */
+.left-side-border{
+    border: 2px solid rgb(255, 255, 255);
+    width: 40%;
+    height: 120vh;
+    margin: 15px 5px;
+    border-radius: 20px;
+    background:linear-gradient(rgb(175, 203, 255),white)
+}
+.basic-info{
+    margin: 5px auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: 1;
+    flex-shrink: 1;
+}
+.basic-info img{
+    display: flex;
+    margin: 5px auto;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+}
+.basic-info h2{
+    font-size: 30px;
+}
+.basic-info p{
+    font-weight: 600;
+}
+.about-me{
+    text-align: start;
+    margin-left:15px ;
+}
+.contacts{
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+}
+.icons{
+    display: flex;
+    margin: 5px 15px;
+    width: 15%;
+    flex-direction: column;
+    flex-wrap: 1;
+    flex-shrink: 1;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 300,
+    'GRAD' 20,
+    'opsz' 24
+}
+#account{
+    margin: 5px 10px;
+    font-size: 40px;
+
+}
+#mail{
+    margin: 5px 11px;
+    font-size: 38px;
+}
+#contacts{
+    margin: 5px 13px;
+    font-size: 35px;
+}
+#link{
+    margin: 5px 13px;
+    font-size: 35px;
+}
+.contact-links{
+    width: 70%;
+    display: flex;
+    margin: 23px auto;
+    flex-direction: column;
+    flex-wrap: 1;
+    flex-shrink: 1;
+    text-align: start;
+    gap: 7px;
+}
+.contact-links a{
+    text-decoration: none;
+    color: black;
+}
+.skills{
+    width: 90%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: 1;
+    flex-shrink: 1;
+}
+.skills h2{
+    margin: 15px;
+    font-size: 20px;
+}
+/* ------main content------ */
+.Main{
+    border: 2px solid rgb(255, 255, 255);
+    width: 55%;
+    height: 120vh;
+    margin: 15px 3px;
+    border-radius: 20px;
+    background:linear-gradient(rgb(175, 203, 255),white)
+}
+.obj{
+    margin: 5px 10px;
+    padding: 15px;
+}
+.obj h2{
+    border: 1px solid white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+    margin: 10px auto;
+    background-color: rgb(187, 219, 255);
+}
+.obj p{
+    font-size: 18px;
+}
+.educational{
+    margin: 5px 10px;
+    padding: 15px;
+}
+.educational h2{
+    border: 1px solid white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    width: 60%;
+    margin: 10px auto;
+    background-color: rgb(187, 219, 255);
+}
+.educational p{
+    text-align: center;
+    font-size: 16px;
+}
+.educational strong{
+    font-size: 19px;
+}
+.hobbies{
+    margin: 5px 10px;
+    padding: 15px;
+}
+.hobbies h2{
+    border: 1px solid white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    width: 60%;
+    margin: 10px auto;
+    background-color: rgb(187, 219, 255);
+}
+.hobbies li{
+    margin-left: 50px;
+    font-size: 20px;
+}
+/* -----Footer----- */
+#footer{
+    background-color: white;
+    border-top: 1px solid black;
+    text-align: center;
+    width: 9.3in;
+    margin: 0% auto;
+    padding: 10px 0px;
+}
